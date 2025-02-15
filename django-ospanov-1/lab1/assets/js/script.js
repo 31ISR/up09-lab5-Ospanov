@@ -1,1 +1,9 @@
-console.log("Добро пожаловать на мой сайт");
+// console.log("Добро пожаловать на мой сайт");
+document.addEventListener('DOMContentLoaded', function() {
+  const burger = document.getElementById('burger');
+  const nav = document.getElementById('nav');
+
+  burger.addEventListener('click', function() {
+    nav.classList.toggle('active');
+  });
+});
